@@ -1,71 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo Nova York 3D - Tráfego Urbano</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #111;
-            color: #eee;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: #222;
-            padding: 20px;
-        }
-        h1 {
-            color: #f0db4f;
-        }
-        section {
-            padding: 20px;
-        }
-        a {
-            color: #f0db4f;
-            text-decoration: none;
-        }
-        footer {
-            background: #222;
-            padding: 10px;
-            font-size: 0.9em;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Nova York 3D - Tráfego Urbano</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>🗽 Jogo Nova York 3D</h1>
-        <p>Simulação de tráfego urbano com carros e ônibus</p>
-    </header>
-
-    <section>
-        <h2>🚦 Sobre o Projeto</h2>
-        <p>
-            Este jogo simula o tráfego de Nova York em ambiente 3D, com carros e ônibus fluindo pelas ruas,
-            semáforos dinâmicos e rotas de transporte público.
-        </p>
-    </section>
-
-    <section>
-        <h2>🎮 Como Jogar</h2>
-        <p>
-            - Clone o repositório no GitHub<br>
-            - Abra no Unity 3D<br>
-            - Execute a cena <strong>NYC_Traffic.unity</strong><br>
-        </p>
-    </section>
-
-    <section>
-        <h2>📜 Licença</h2>
-        <p>
-            Este projeto está sob a licença MIT. Veja o arquivo <a href="LICENSE">LICENSE</a> para mais detalhes.
-        </p>
-    </section>
-
-    <footer>
-        <p>Feito com ❤️ por [Seu Nome] - 2026</p>
-    </footer>
+  <h1>🗽 Simulação de Tráfego em Nova York</h1>
+  <canvas id="scene"></canvas>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
 </body>
-</html>
